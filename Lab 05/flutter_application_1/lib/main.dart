@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                   // LoginForm(), 
                   // Row 1
                   Row1(),
-                  const Padding(padding: EdgeInsets.all(16.0)),
+                  SizedBox(height: 10,)
                   // Row 2
                   Row2(),
                 ],
