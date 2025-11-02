@@ -31,7 +31,7 @@ class BasicHomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // --- Simple Text Widget ---
+              
               Text(
                 'Welcome to My Profile!',
                 style: TextStyle(
@@ -43,7 +43,7 @@ class BasicHomePage extends StatelessWidget {
 
               SizedBox(height: 20),
 
-              // --- RichText Widget ---
+              
               RichText(
                 text: TextSpan(
                   text: 'This app shows how to use ',
@@ -63,7 +63,7 @@ class BasicHomePage extends StatelessWidget {
 
               SizedBox(height: 30),
 
-              // --- Row Widget ---
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -78,7 +78,7 @@ class BasicHomePage extends StatelessWidget {
 
               SizedBox(height: 15),
 
-              // --- Another Row ---
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -93,7 +93,7 @@ class BasicHomePage extends StatelessWidget {
 
               SizedBox(height: 30),
 
-              // --- Buttons Example ---
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -118,7 +118,7 @@ class BasicHomePage extends StatelessWidget {
 
               SizedBox(height: 30),
 
-              // --- Container Example ---
+              
               Container(
                 width: double.infinity,
                 padding: EdgeInsets.all(16),
