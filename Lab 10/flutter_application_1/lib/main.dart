@@ -44,7 +44,7 @@ class PrettyHomePage extends StatelessWidget {
             ),
           ),
 
-          // --- List Section ---
+          // --- List Section --- 
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(10.0),
